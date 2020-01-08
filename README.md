@@ -8,4 +8,4 @@
 Позволяет выполняться в пакетном режиме из командной строки.
 
 
-[download](Result/RequestTester.exe)
+[download](RequestTester/raw/master/Result/RequestTester.exe)
