@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tbNotes.Text" xml:space="preserve">
+    <value>MS SQL
+
+
+Standard Security
+Data Source=myServerAddress;Initial Catalog=myDataBase;User Id=myUsername;Password=myPassword;
+Server=myServerAddress;Database=myDataBase;User ID=myUsername;Password=myPassword;Trusted_Connection=False;
+
+Trusted Connection
+Data Source=myServerAddress;Initial Catalog=myDataBase;Integrated Security=SSPI;
+Server=myServerName\theInstanceName;Database=myDataBase;Trusted_Connection=True;
+
+Attach a database file on connect to a local SQL Server Express instance
+Server=.\SQLExpress;AttachDbFilename=c:\asd\qwe\mydbfile.mdf;Database=dbname; Trusted_Connection=Yes;
+Data Source=.\SQLExpress;Integrated Security=true; AttachDbFilename=|DataDirectory|\mydb.mdf;User Instance=true;
+
+Database mirroring
+Data Source=myServerAddress;Failover Partner=myMirrorServerAddress;Initial Catalog=myDataBase;Integrated Security=True;
+
+Asynchronous processing
+Server=myServerAddress;Database=myDataBase;Integrated Security=True;Asynchronous Processing=True;
+
+Bridging to SQL Native Client OLE DB
+Provider=SQLNCLI10;Server=myServerAddress;Database=myDataBase;Uid=myUsername; Pwd=myPassword;
+
+Encrypt data sent over network
+Provider=SQLNCLI10;Server=myServerAddress;Database=myDataBase; Trusted_Connection=yes;Encrypt=yes;
+
+Bridging to SQL Native Client 10.0 ODBC Driver
+Driver={SQL Server Native Client 10.0};Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+
+Using SQL Server Native Client provider
+Provider=SQLXMLOLEDB.4.0;Data Provider=SQLNCLI10;Data Source=myServerAddress;Initial Catalog=myDataBase;User Id=myUsername;Password=myPassword;
+
+SQL Azure whith MARS
+Server=tcp:[serverName].database.windows.net;Database=myDataBase;User ID=[LoginForDb]@[serverName];Password=myPassword;Trusted_Connection=False;Encrypt=True; MultipleActiveResultSets=True;
+
+Bridging to OLE DB Provider for OLAP
+Provider=MSOLAP;Data Source=myServerAddress;Initial Catalog=myDataBase;
+Provider=MSOLAP;Data Source=https://serverName/;Initial Catalog=myDataBase;User Id=domain\user;Password=myPassword;
+
+
+ORACLE
+
+
+Bridging to Oracle Provider for OLE DB
+Provider=OraOLEDB.Oracle;Data Source=MyOracleDB;User Id=myUsername;Password=myPassword;OLEDB.NET=True;
+Provider=OraOLEDB.Oracle;Data Source=MyOracleDB;User Id=myUsername;Password=myPassword;OLEDB.NET=True; SPPrmsLOB=False;NDatatype=False;SPPrmsLOB=False;
+
+Microsoft ODBC for Oracle
+Driver={Microsoft ODBC for Oracle};Server=myServerAddress;Uid=myUsername;Pwd=myPassword;
+Driver={Microsoft ODBC for Oracle};Server=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=199.199.199.199)(PORT=1523))(CONNECT_DATA=(SID=dbName)));Uid=myUsername;Pwd=myPassword;
+
+
+MySQL
+
+
+Specifying port
+Server=myServerAddress;Port=1234;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+
+Named pipes
+Server=myServerAddress;Port=-1;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+
+Multiple servers
+Server=serverAddress1 &amp; serverAddress2 &amp; etc..;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+
+Bridging to MySQL OLEDB
+Provider=MySQLProv;Data Source=mydb;User Id=myUsername;Password=myPassword;
+
+Bridging to MySQL Connector/ODBC 5.1
+Driver={MySQL ODBC 5.1 Driver};Server=localhost;Database=myDataBase; User=myUsername;Password=myPassword;Option=3;
+
+
+INFORMIX
+
+
+Standard
+Database=myDataBase;Host=192.168.10.10;Server=db_engine_tcp;Service=1492; Protocol=onsoctcp;UID=myUsername;Password=myPassword;
+
+Bridging to IBM Informix OLE DB Provider
+Provider=Ifxoledbc;Data Source=dbName@serverName;User ID=myUsername;Password=myPassword;
+
+Bridging to Informix-CLI 2.5 (32 Bit) ODBC Driver
+Driver={Informix-CLI 2.5 (32 Bit)};Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+
+
+Postgre SQL
+
+
+Standard
+User ID=root;Password=myPassword;Host=localhost;Port=5432;Database=myDataBase; Pooling=true;Min Pool Size=0;Max Pool Size=100;Connection Lifetime=0;
+
+Bridging to PostgreSQL OLE DB Provider
+Provider=PostgreSQL OLE DB Provider;Data Source=myServerAddress;location=myDataBase;User ID=myUsername;password=myPassword;timeout=1000;
+
+Bridging to psqlODBC
+Driver={PostgreSQL};Server=IP address;Port=5432;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+
+
+Firebird
+
+
+Standard
+User=SYSDBA;Password=masterkey;Database=SampleDatabase.fdb;DataSource=localhost; Port=3050;Dialect=3; Charset=NONE;Role=;Connection lifetime=15;Pooling=true; MinPoolSize=0;MaxPoolSize=50;Packet Size=8192;ServerType=0;
+
+Bridging to IBPhoenix Open Source ODBC Driver
+Driver=Firebird/InterBase(r) driver;Uid=SYSDBA;Pwd=masterkey; DbName=d:\firebird\examples\test.fdb;
+
+
+Interbase
+
+
+Bridging to SIBPROvider Interbase OLE DB Provider
+provider=sibprovider;location=localhost:;data source=c:\databases\gdbs\mygdb.gdb;user id=SYSDBA;Password=masterkey;
+
+Bridging to Easysoft ODBC
+Driver={Easysoft IB6 ODBC};Server=localhost;Database=localhost:C:\mydatabase.gdb; Uid=myUsername;Pwd=myPassword;
+
+
+Paradox
+
+
+Standard
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\myDb;Extended Properties=Paradox 5.x;
+Provider=MSDASQL;Persist Security Info=False;Mode=Read;Extended Properties='DSN=Paradox;DBQ=C:\myDb;DefaultDir=C:\myDb;DriverId=538;FIL=Paradox 7.X;MaxBufferSize=2048;PageTimeout=600;';Initial Catalog=C:\myDb;
+
+Bridging to Microsoft Paradox ODBC Driver
+Driver={Microsoft Paradox Driver (*.db )};DriverID=538;Fil=Paradox 5.X;DefaultDir=c:\pathToDb\;Dbq=c:\pathToDb\;CollatingSequence=ASCII;
+
+
+Ingres
+
+
+DSN-less
+Provider=MSDASQL;DRIVER=Ingres;SRVR=xxxxx;DB=xxxxx;Persist Security Info=False;Uid=myUsername;Pwd=myPassword;SELECTLOOPS=N;Extended Properties="SERVER=xxxxx;DATABASE=xxxxx;SERVERTYPE=INGRES";
+
+Bridging to ODBC Driver for Ingres
+DRIVER=Ingres;SRVR=xxxxx;DB=xxxxx;Persist Security Info=False;Uid=myUsername;Pwd=myPassword;SELECTLOOPS=N;Extended Properties="SERVER=xxxxx;DATABASE=xxxxx;SERVERTYPE=INGRES";
+
+
+Excel
+
+
+Standard
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\MyExcel.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1";
+OLEDB;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\MyExcel.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1";
+Provider=Microsoft.ACE.OLEDB.12.0;Data Source=c:\myFolder\myExcel2007file.xlsx;Extended Properties="Excel 12.0 Xml;HDR=YES";
+
+Excel 97-2007 Xls files with ACE OLEDB 12.0
+Provider=Microsoft.ACE.OLEDB.12.0;Data Source=c:\myFolder\myOldExcelFile.xls;Extended Properties="Excel 12.0;HDR=YES";
+Provider=Microsoft.ACE.OLEDB.12.0;Data Source=c:\myFolder\myExcel2007file.xlsx;Extended Properties="Excel 12.0 Xml;HDR=YES";
+
+
+Bridging to Jet OLE DB 4.0
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\MyExcel.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1";
+
+Bridging to Microsoft Excel ODBC Driver
+Driver={Microsoft Excel Driver (*.xls)};DriverId=790;Dbq=C:\MyExcel.xls;DefaultDir=c:\mypath;
+
+
+Access
+
+
+Standard 
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\mydatabase.mdb;User Id=admin;Password=;
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\mydatabase.mdb;Jet OLEDB:Database Password=MyDbPassword;
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\mydatabase.mdb;Jet OLEDB:System Database=system.mdw;User ID=myUsername;Password=myPassword;
+
+Remote
+Provider=MS Remote;Remote Provider=Microsoft.Jet.OLEDB.4.0;Remote Server=http://server.adress.com;Data Source=d:\myPath\myDatabase.mdf;
+
+Bridging to ACE OLEDB 12.0
+Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\myFolder\myAccess2007file.accdb;Persist Security Info=False;
+Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\myFolder\myAccess2007file.accdb;Jet OLEDB:Database Password=MyDbPassword;
+
+Bridging to Microsoft Access ODBC Driver
+Driver={Microsoft Access Driver (*.mdb)};Dbq=C:\mydatabase.mdb;Uid=Admin;Pwd=;
+Driver={Microsoft Access Driver (*.mdb, *.accdb)};Dbq=C:\mydatabase.accdb;Uid=Admin;Pwd=;
+Driver={Microsoft Access Driver (*.mdb, *.accdb)};Dbq=C:\mydatabase.accdb;SystemDB=C:\mydatabase.mdw;
+
+
+Textfile
+
+
+Standard
+Driver={Microsoft Text Driver (*.txt; *.csv)};Dbq=c:\txtFilesFolder\;Extensions=asc,csv,tab,txt;
+
+Delimited columns
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\txtFilesFolder\;Extended Properties="text;HDR=Yes;FMT=Delimited";
+
+Fixed length columns
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\txtFilesFolder\;Extended Properties="text;HDR=Yes;FMT=Fixed";
+
+
+DBF / FoxPro
+
+
+Standard
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\folder;Extended Properties=dBASE IV;User ID=Admin;Password=;
+
+Remote drives
+Driver={Microsoft dBase Driver (*.dbf)};datasource=dBase Files;
+(SQL syntax example: "select * from \\remotemachine\thefile.dbf")
+
+Bridging to Microsoft dBASE ODBC Driver
+Driver={Microsoft dBASE Driver (*.dbf)};DriverID=277;Dbq=c:\mydbpath;
+
+
+Visual FoxPro / FoxPro 2.x 
+
+
+Database container
+Provider=vfpoledb;Data Source=C:\MyDbFolder\MyDbContainer.dbc;Collating Sequence=machine;
+
+Free table directory
+Provider=vfpoledb;Data Source=C:\MyDataDirectory\;Collating Sequence=general;
+
+Force the provider to use an ODBC DSN
+Provider=vfpoledb;DSN=MyDSN;
+
+Bridging to Microsoft Visual FoxPro ODBC Driver
+Driver={Microsoft Visual FoxPro Driver};SourceType=DBC;SourceDB=c:\myvfpdb.dbc;Exclusive=No; NULL=NO;Collate=Machine;BACKGROUNDFETCH=NO;DELETED=NO;
+
+
+SharePoint
+
+
+Read and write
+Provider=Microsoft.ACE.OLEDB.12.0;WSS;IMEX=2;RetrieveIds=Yes; DATABASE=http://pp1webofficelivecom.officelive.com/Documents/;LIST={5999B8A0-0C2F-4D4D-9C5A-D7B146E49698};
+
+Read only
+Provider=Microsoft.ACE.OLEDB.12.0;WSS;IMEX=1;RetrieveIds=Yes; DATABASE=http://pp1webofficelivecom.officelive.com/Documents/;LIST={5999B8A0-0C2F-4D4D-9C5A-D7B146E49698};
+
+
+Lotus Notes
+
+
+Standard
+Driver={Lotus NotesSQL 3.01 (32-bit) ODBC DRIVER (*.nsf)};Server=myServerAddress; Database=dbPath\myDb.nsf;Uid=myUsername;Pwd=myPassword;
+
+
+Project
+
+
+Standard
+Provider=Microsoft.Project.OLEDB.11.0;Project Name=myProjectDatabaseFile.mpp;
+
+
+HTML Table
+
+
+Standard
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=http://www.websitewithhtmltable.com/tablepage.html;Extended Properties="HTML Import;HDR=YES;IMEX=1";
+
+
+Active Directory
+
+
+Bridging to Active Directory OLE DB provider
+Provider=ADSDSOObject;
+
+
+Exchange
+
+
+Bridging to Exchange OLE DB provider
+ExOLEDB.DataSource
+
+
+
+
+
+Copyright © 2012 ConnectionStrings.com</value>
+  </data>
+</root>
