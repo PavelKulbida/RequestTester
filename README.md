@@ -8,4 +8,4 @@
 Позволяет выполняться в пакетном режиме из командной строки.
 
 
-[DOWNLOAD](/releases/latest/download/RequestTester.exe)
+[DOWNLOAD](./releases/latest/download/RequestTester.exe)
