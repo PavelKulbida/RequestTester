@@ -8,4 +8,4 @@
 Позволяет выполняться в пакетном режиме из командной строки.
 
 
-[DOWNLOAD](/PavelKulbida/RequestTester/releases/latest/download/RequestTester.exe)
+[DOWNLOAD](https://github.com/PavelKulbida/RequestTester/releases/latest/download/RequestTester.exe)
