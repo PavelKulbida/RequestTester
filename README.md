@@ -1,3 +1,6 @@
+
+![1](https://github.com/PavelKulbida/RequestTester/blob/master/logo.ico?raw=true)
+
 # RequestTester
 
 WinForms-программа (.NET 2.0) предназначенна для тестирования SQL и HTTP запросов. 
