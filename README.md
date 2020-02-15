@@ -11,4 +11,4 @@ WinForms-программа (.NET 2.0) предназначенна для те�
 Позволяет выполняться в пакетном режиме из командной строки.
 
 
-[DOWNLOAD](https://github.com/PavelKulbida/RequestTester/releases/latest/download/RequestTester.exe)
+[![1](https://github.com/PavelKulbida/RequestTester/blob/master/logo.ico?raw=true)](https://github.com/PavelKulbida/RequestTester/releases/latest/download/RequestTester.exe)
